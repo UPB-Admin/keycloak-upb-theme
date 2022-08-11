@@ -1,0 +1,14 @@
+.login-pf body {
+    background: #5677b7 url("../bg.png") no-repeat center bottom fixed;
+    background-size: min(75vh, 70vw);
+}
+
+#kc-header {
+    color: #ededed;
+}
+
+#kc-header-wrapper {
+    padding: 20px 0 0 0;
+    text-align: center;
+    color: #ededed;
+}
