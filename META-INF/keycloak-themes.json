@@ -1,0 +1,6 @@
+{
+    "themes": [{
+        "name": "upb",
+        "types": [ "account", "login", "welcome" ]
+    }]
+}
