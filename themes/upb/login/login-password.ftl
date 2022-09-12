@@ -11,7 +11,7 @@
                         <hr/>
                         <label for="password" class="${properties.kcLabelClass!}">${msg("password")}</label>
                         <input tabindex="2" id="password" class="${properties.kcInputClass!}" name="password"
-                               type="password" autocomplete="on"
+                               type="password" autocomplete="on" autofocus
                                aria-invalid="<#if messagesPerField.existsError('password')>true</#if>"
                         />
                         <#if messagesPerField.existsError('password')>
@@ -26,7 +26,8 @@
                         </div>
                         <div class="${properties.kcFormOptionsWrapperClass!}">
                             <#if realm.resetPasswordAllowed>
-                                <span><a tabindex="5" href="${properties.loginResetCredentialsUrl!url.loginResetCredentialsUrl}">${msg("doForgotPassword")}</a></span>
+                                <span><a tabindex="5"
+                                         href="${properties.loginResetCredentialsUrl!url.loginResetCredentialsUrl}">${msg("doForgotPassword")}</a></span>
                             </#if>
                         </div>
                     </div>
