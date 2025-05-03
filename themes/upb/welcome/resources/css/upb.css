@@ -1,14 +1,14 @@
 body {
-      background: #5677b7 url(../bg.png) no-repeat center bottom fixed;
-      background-size: contain;
-      color: #ededed;
+    background: #5677b7 url(../bg.png) no-repeat center bottom fixed;
+    background-size: contain;
+    color: #ededed;
 }
 
 h1 {
-      background: #5677b7;
-      display: table;
-      padding-left: 10px;
-      padding-right: 10px;
+    background: #5677b7;
+    display: table;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .welcome-header {
