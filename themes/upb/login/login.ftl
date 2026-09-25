@@ -6,9 +6,6 @@
     <#elseif section = "form">
         <div id="kc-form">
           <div id="kc-form-wrapper">
-            <a href="https://my.upb.ro/tutorials/login.upb.ro_Ghid_autentificare.pdf">
-                <button class="btn-danger text-center btn-block h3" type="button">Ghid utilizare platformă</button>
-            </a>
             <#if realm.password>
                 <form id="kc-form-login" onsubmit="login.disabled = true; return true;" action="${url.loginAction}" method="post">
                     <#if !usernameHidden??>
@@ -83,6 +80,9 @@
             </#if>
             </div>
         </div>
+
+        <a class="${properties.kcButtonClass!} ${properties.kcButtonBlockClass!} ${properties.kcButtonLargeClass!} login-guide-button" href="https://guides.upb.ro/docs/web-platforms/login-upb-ro">Ghid utilizare platformă</a>
+
         <@passkeys.conditionalUIData />
         <script type="module" src="${url.resourcesPath}/js/passwordVisibility.js"></script>
     <#elseif section = "info" >

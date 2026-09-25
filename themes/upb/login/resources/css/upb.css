@@ -13,3 +13,17 @@
     color: #ededed;
     background: #2e4c86;
 }
+
+.login-guide-button {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    background-color: #bfd5ff;
+    font-weight: 650;
+    transition: linear 0.15s background-color;
+}
+
+.login-guide-button:hover {
+    color: #fff !important;
+    background-color: #363d88;
+}
